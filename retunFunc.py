@@ -1,0 +1,8 @@
+def calculate_mb(gb_value):
+    result = gb_value * 1024
+    return result  # This sends the number back to the program
+
+# You can now save that returned answer into a new variable
+my_ram_mb = calculate_mb(16)
+
+print(f"I have {my_ram_mb} MB of RAM.")  # Output: I have 16384 MB of RAM.
